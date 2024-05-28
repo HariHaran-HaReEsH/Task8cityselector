@@ -21,6 +21,7 @@ function App() {
             break;
         case 'Srilanka':
             setstatelist(['Badulla','Galle','Ratnapura']);
+            break;
         default:
             setstatelist([]);
         }
