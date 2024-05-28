@@ -21,6 +21,8 @@ function App() {
             break;
         case 'Srilanka':
             setstatelist(['Badulla','Galle','Ratnapura']);
+        default:
+            setstatelist([]);
         }
         
     },[country]);
@@ -55,6 +57,8 @@ function App() {
             case 'Brittany':
                 setcitylist('Saint-Brieuc');
                 break;            
+            default:
+                setcitylist([]);
             }
     },[state]);
   return (<>    <h1>CITY SELECTOR</h1>
